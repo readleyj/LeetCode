@@ -1,8 +1,6 @@
 defmodule Solution do
   @spec is_isomorphic(s :: String.t(), t :: String.t()) :: boolean
   def is_isomorphic(s, t) do
-    IO.puts(encode_str(s))
-    IO.puts(encode_str(t))
     encode_str(s) == encode_str(t)
   end
 
